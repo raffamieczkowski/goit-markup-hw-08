@@ -6,7 +6,7 @@
   max-width: 768px;
 }
 .navigation-list {
-display:flex;
+display:none;
 flex-direction: column;
 margin-left: 40px;
 align-items: flex-start;
@@ -27,6 +27,7 @@ margin-bottom: 302px;
     // margin-right: 50px;
   }
   .contact-link {
+    display: none;
     letter-spacing: 0.02em;
     line-height: 1.14;
     text-decoration: none;
