@@ -16,7 +16,7 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: white;
+    color: var(--main-white);
     list-style-type: none;
 &:nth-child(2) {
     margin-top: 9px;
@@ -31,6 +31,5 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    text-decoration-line: underline;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--main-white);
   }

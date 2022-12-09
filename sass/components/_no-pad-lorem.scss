@@ -3,8 +3,9 @@
     padding-bottom: 0;
   }
   .container {
-    width: 100vw;
+    width: 100%;
     align-items: center;
+    max-width: 767px;
     // margin: 0 auto;
     // padding: 0 15px; 
   }
