@@ -1,10 +1,21 @@
+.navi-menu {
+ margin-left: 40px;
+  margin-top: 48px;
+  margin-bottom: auto;
+}
+.navi-menu-two {
+  margin-bottom: 48px;
+  margin-left: 40px;
+  position: fixed;
+  bottom: 0px;
+}
 .navigation-list-menu-bot {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 768px;
-margin-left: 40px;
-margin-bottom: 64px;
+// margin-left: 40px;
+// margin-bottom: 64px;
 align-items: flex-start;
 gap: 32px;
 }
@@ -13,10 +24,13 @@ gap: 32px;
     align-items: center;
     max-width: 768px;
   flex-direction: column;
-  margin-left: 40px;
+  // margin-left: 40px;
+  // margin-top: 48px;
+  // padding-bottom: auto;
   align-items: flex-start;
   }
   .contact-link-menu-mail {
+    margin-bottom: 48px;
     font-family: var(--main-font);
     font-style: normal;
     font-weight: 500;
@@ -55,11 +69,15 @@ letter-spacing: 0.02em;
 .navigation-list-menu-social {
   display: flex;
   flex-direction: row;
+  position: abolute;
   margin-bottom: 48px;
-  margin-left: 40px;
-  gap: 10px;
 }
-.menu-link{
+.line {
+  color: var(--main-blue);
+  padding-inline: 10px;
+
+}
+.menu-link {
 color: var(--main-blue);
 font-family: 'Roboto';
 font-style: normal;
@@ -67,6 +85,7 @@ font-weight: 500;
 font-size: 18px;
 line-height: 22px;
 letter-spacing: 0.02em;
+text-decoration: none;
 }
 .navigation-list-menu__item:not(:last-child) {
   // margin-right: 46px;
@@ -79,6 +98,7 @@ letter-spacing: 0.02em;
   font-size: 40px;
   line-height: 47px;
   letter-spacing: 0.02em;
+  margin-bottom: auto;
       // letter-spacing: 0.02em;
       // line-height: 1.14;
       // text-decoration: none;
