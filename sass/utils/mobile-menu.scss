@@ -42,15 +42,18 @@
   .menu .link:focus {
     text-decoration: underline;
   }
-  
+  .menu-toggle-icon {
+    fill: red;
+  }
   .menu-toggle {
     min-height: 40px;
     min-width: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-  
-    margin: 0;
+    margin-right: 23px;
+    margin-bottom: 23px;
+    margin-top: 23px;
     padding: 0;
     background-color: transparent;
     cursor: pointer;
@@ -91,7 +94,7 @@
     position: absolute;
     top: 16px;
     right: 16px;
-    color: #fff;
+    color: var(--black);
   }
   
   .mobile-menu {
