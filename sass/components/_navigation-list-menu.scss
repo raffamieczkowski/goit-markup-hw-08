@@ -126,8 +126,6 @@ text-decoration: none;
       transition-property: color;
       transition-duration: 250ms;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
-      
       color: var(--main-blue);
   //  &::after {
   //     content: "";
@@ -138,4 +136,7 @@ text-decoration: none;
   //     background-color: var(--main-blue);
   //     bottom: -32px;
   //     left: 0;
+  @media screen and (min-width: 768px) {
+font-size: 14px;
+}
     }
