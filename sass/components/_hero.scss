@@ -7,6 +7,7 @@
     background-size: cover;
   }
   .hero .container {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -41,7 +42,9 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    margin-inline: calc((100vw - 200px) /2);
+    // margin-inline: calc((100vw - 200px) /2);
+    @media screen and (min-width: 768px) {
+width: auto;
 
   &:hover, &focus {
   background-color: var(--main-white);
@@ -51,8 +54,9 @@
     0px 2px 2px rgba(0, 0, 0, 0.12);
   }
   }
+}
   .hero__button-text {
-    // padding: 10px 41px 10px 42px;
+    padding: 10px 41px 10px 42px;
     color: var(--main-white);
     transition-property: color;
     transition-duration: 250ms;

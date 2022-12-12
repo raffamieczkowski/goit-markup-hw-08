@@ -8,7 +8,17 @@
     max-width: 767px;
     // margin: 0 auto;
     // padding: 0 15px; 
-  }
+}
+.container-lorem {
+  width: 100%;
+  align-items: center;
+  max-width: 767px; 
+
+  @media screen and (min-width: 768px) {
+    width: 354px;
+    margin-left: 10px;
+}
+}
   .lorem {
     align-items: center;
     justify-content: space-between;
@@ -22,6 +32,9 @@
     height: 120px;
     margin-bottom: 30px;
 
+    @media screen and (min-width: 768px) {
+      width: 354px;
+    }
   }
   .lorem__list {
     display: flex;
@@ -48,7 +61,11 @@
     padding-bottom: 30px;
     line-height: 1.71;
     color: var(--bright-grey);
+
+    @media screen and (min-width: 768px) {
+      width: 354px;
   }
+}
   .lorem__tittle {
     display: flex;
     justify-content: center;
