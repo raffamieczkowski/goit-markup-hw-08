@@ -6,9 +6,14 @@
     width: 100%;
     align-items: center;
     max-width: 767px;
+    @media screen and (min-width: 768px) {
+      align-items: center;
+      max-width: 767px;
+    }
+  }
     // margin: 0 auto;
     // padding: 0 15px; 
-}
+
 .container-lorem {
   width: 100%;
   align-items: center;
@@ -37,7 +42,7 @@
     }
   }
   .lorem__list {
-    display: flex;
+    // display: flex;
     flex-wrap: wrap;
   }
   // .section {
@@ -61,6 +66,7 @@
     padding-bottom: 30px;
     line-height: 1.71;
     color: var(--bright-grey);
+    margin-left: 15px;
 
     @media screen and (min-width: 768px) {
       width: 354px;

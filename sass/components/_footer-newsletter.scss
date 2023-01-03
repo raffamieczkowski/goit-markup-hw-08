@@ -73,8 +73,8 @@
   }
 }
 .new-button {
-  width: 90vw;
-  padding-left: calc((100vw - 200px)/2);
+    display: flex;
+    justify-content: center;
 }
   .footer-newsletter__button {
     background-color: var(--main-blue);
