@@ -4,9 +4,10 @@
   display: flex;
   align-items: center;
   max-width: 768px;
-}
+
 @media screen and (min-width: 768px) {
-max-width: 100%;
+  max-width: 100%;
+}
 }
 .navigation-list__item {
   @media screen and (min-width: 768px) {
