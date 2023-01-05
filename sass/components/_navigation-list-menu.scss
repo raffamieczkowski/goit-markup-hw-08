@@ -34,6 +34,7 @@ gap: 32px;
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.02em;
+    text-decoration: none;
     color: var(--bright-grey);
     fill: var(--bright-grey);
     font-style: normal;
@@ -52,6 +53,7 @@ font-weight: 500;
 font-size: 34px;
 line-height: 40px;
 letter-spacing: 0.02em;
+text-decoration: none;
   color: var(--bright-grey);
   fill: var(--bright-grey);
   font-style: normal;
@@ -67,6 +69,15 @@ letter-spacing: 0.02em;
   display: flex;
   flex-direction: row;
   margin-bottom: 48px;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+.list-menu-social {
+  padding-right: 10px;
+  margin-right: 10px;
+&:not(:last-child) {
+  border-right: 1px solid var(--main-blue);
+}
 }
 .line {
   color: var(--main-blue);
