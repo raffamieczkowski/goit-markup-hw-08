@@ -1,6 +1,5 @@
 .team {
     background-color: var(--background-white);
-    width: 100%;
     
 &:__banner {
   margin-top: 60px;
@@ -11,8 +10,7 @@
   }
 }
 .team__banner {
-  padding-top: 60px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
   .team-description, .team__banner {
     text-align: center;
@@ -25,6 +23,7 @@
   .team__gallery {
     display: flex;
     flex-direction: column;
+    gap: 30px;
     @media screen and (min-width: 768px) {
       flex-direction: row;
       // flex-wrap: wrap;
@@ -53,23 +52,24 @@
 
   .team-img {
     width: 100%;
-    height: "auto";
+    height: auto;
   }
   .team-description {
     font-size: 16px;
     line-height: 1.19;
+    padding: 30px 0;
   }
   .team-name {
-    margin-top: 30px;
+    margin-top: 10px;
   }
   .team-job {
     color: var(--bright-grey);
-    margin-top: 10px;
+    margin-bottom: 16px;
   }
   .inner {
     display: flex;
     justify-content: center;
-    // gap: 10px;
+    gap: 10px;
   }
   .social-link {
     display: flex;
@@ -95,4 +95,9 @@
   }
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.social-link-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
 }
