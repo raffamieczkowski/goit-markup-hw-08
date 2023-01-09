@@ -73,4 +73,7 @@
   }
   .list-lorem {
     list-style-type: none;
+    &:not(:last-child) {
+      margin-bottom: 30px;
   }
+}

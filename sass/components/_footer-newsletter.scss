@@ -47,12 +47,10 @@
     margin-bottom: 20px;
   }
   .newsletter-footer {
-    display: flex;
     gap: 12px;
   }
   .footer-newsletter__placeholder {
     box-sizing: border-box;
-    width: 90vw;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -77,6 +75,9 @@
     justify-content: center;
 }
   .footer-newsletter__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--main-blue);
     box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
     width:200px;

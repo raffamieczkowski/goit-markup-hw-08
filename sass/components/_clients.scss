@@ -1,29 +1,28 @@
 .clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    margin: 60px 0;
+    width: 100%;
+    padding: 0 15px;
   }
   .clients__head {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    margin-top: 60px;
-
   }
   .clients__images {
     display: flex;
-    flex-direction: row;
+    // flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    // justify-content: center;
   }
   
   .clients__link {
     margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    // display: flex;
+    // flex-direction: row;
+    // flex-wrap: wrap;
+    // align-items: center;
+    // justify-content: center;
     height: 92px;
     text-decoration: none;
     border: 1px solid var(--social-color);
