@@ -70,10 +70,26 @@
     margin-bottom: 10px;
     text-align: center;
     font-size: 14px;
+    @media screen and (min-width: 768px) {
+    width: 354px;
   }
+}
   .list-lorem {
     list-style-type: none;
     &:not(:last-child) {
       margin-bottom: 30px;
+      }}
+
+      .list-lorem {
+      @media screen and (min-width: 768px) {
+        margin: 0 auto;
+      }
+    }
+      
+   
+.lorem-list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
