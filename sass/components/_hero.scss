@@ -9,7 +9,18 @@
     // padding: 0 15px;
     background-position: center;
     background-size: cover;
-  }
+    @media screen and (min-width: 768px) {
+      background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url("../Images/Header1.jpg");
+      background-position: center;
+      background-size: cover;
+      @media screen and (min-width: 1199px) {
+      background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url("../Images/Header2.jpg");
+      background-position: center;
+      background-size: cover;
+      }
+    }
+    }
+  
   // .hero .container {
   //   display: flex;
   //   flex-direction: column;
