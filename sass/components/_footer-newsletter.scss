@@ -47,6 +47,11 @@
   }
   .newsletter-footer {
     gap: 12px;
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      flex-direction: row;
+    align-items: baseline;
+    }
   }
   .footer-newsletter__placeholder {
     box-sizing: border-box;

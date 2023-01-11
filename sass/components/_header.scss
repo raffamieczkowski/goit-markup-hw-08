@@ -8,7 +8,11 @@
 
 @media screen and (min-width: 768px) {
   max-width: 100%;
+  height: 80px;
 }
+// @media screen and (min-width: 1200px) {
+//   height: 80px;
+// }
 }
 .navigation-list__item {
   @media screen and (min-width: 768px) {
@@ -44,12 +48,15 @@ align-items: center;
   //  margin-right: 293px;
 margin-right: 0px;
 // margin-left: 15px??????
+@media screen and (min-width: 1200px) {
+margin: auto;
+}
 }
 }
 
 
 .header .contact-link:not(:last-child) {
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
     // margin-left: auto;
     // margin-right: 50px;
 }
@@ -62,6 +69,11 @@ margin-right: 0px;
       position: sticky;
       margin-left: auto;
       gap: 10px;
+  }
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+   margin: auto;
+    gap: 30px;
   }
 }
   .contact-link {
@@ -92,14 +104,20 @@ margin-right: 0px;
 
   .logo-first {
     color: var(--main-blue);
-    margin-left: 15px;
+//     @media screen and (min-width: 1200px) {
+// // margin-left: 215px;
+//     }
   }
+
   .header {
     color: var(--black);
-    @media screen and (min-width: 767px) {
-    padding: 10px 0;  
+    @media screen and (min-width: 768px) {
+    padding: 10px 0;
+    @media screen and (min-width: 768px) {
+      padding: 0;
     }
   }
+}
   .navigation-list__item:not(:last-child) {
     // margin-right: 46px;
     // margin-bottom: 36px;

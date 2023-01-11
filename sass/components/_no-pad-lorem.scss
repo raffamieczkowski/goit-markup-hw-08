@@ -35,10 +35,16 @@
     @media screen and (min-width: 768px) {
       width: 354px;
     }
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+  }
   }
   .lorem__list {
     // display: flex;
     flex-wrap: wrap;
+    @media screen and (min-width: 1200px) {
+      flex-direction: row;
+  }
   }
   // .section {
   //   padding-top: 94px;
@@ -64,6 +70,9 @@
     @media screen and (min-width: 768px) {
       width: 354px;
   }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+}
 }
   .lorem__tittle {
     text-transform: uppercase;
@@ -94,5 +103,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
   }
 }
