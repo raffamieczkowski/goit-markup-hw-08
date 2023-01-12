@@ -15,12 +15,13 @@
       background-size: cover;
       @media screen and (min-width: 1199px) {
       background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url("../Images/Header2.jpg");
-      background-position: center;
-      background-size: cover;
+      height: 600px;
+      padding: 200px 0;
+
       }
     }
     }
-    
+
   .hero__banner {
     color: var(--main-white);
     line-height: 1.36;
@@ -31,7 +32,13 @@
     text-align: center;
     margin: 0 auto;
     max-width: 360px;
+    @media screen and (min-width: 1199px) {
+      font-size: 44px;
+      line-height: 60px;
+      width: 696px;
+      max-width: 100%;
   }
+}
   .hero__button {
     min-width: 200px;
     position: relative;
