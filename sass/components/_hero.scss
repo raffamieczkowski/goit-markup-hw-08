@@ -20,13 +20,7 @@
       }
     }
     }
-  
-  // .hero .container {
-  //   display: flex;
-  //   flex-direction: column;
-  //   align-items: center;
-  //   justify-content: center;
-  // }
+    
   .hero__banner {
     color: var(--main-white);
     line-height: 1.36;
@@ -36,6 +30,7 @@
     flex-wrap: wrap;
     text-align: center;
     margin: 0 auto;
+    max-width: 360px;
   }
   .hero__button {
     min-width: 200px;
