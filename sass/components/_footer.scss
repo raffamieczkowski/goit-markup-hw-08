@@ -24,8 +24,8 @@
       display: flex;
       flex-wrap: wrap;
       align-items: baseline;
-    }
-    @media screen and (max-width: 1199px) {
+    // }
+    // @media screen and (min-width: 768px) and (max-width: 1199px) {
       justify-content: space-around;
     }
   }

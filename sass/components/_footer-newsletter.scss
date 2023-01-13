@@ -7,8 +7,11 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     color:var(--main-white);
+    @media screen and (min-width: 1200px) {
+      justify-content: left;
     // padding-top:72px;
     }
+  }
     .footer-icon {
       display: flex;
       justify-content: center;
@@ -44,17 +47,25 @@
     letter-spacing: 0.03em;
     margin-bottom: 20px;
     margin-top: 60px;
+    @media screen and (min-width: 1200px) {
+      margin-top: 0px;
+        justify-content: left;
   }
+}
   .newsletter-footer {
     gap: 12px;
     @media screen and (min-width: 1200px) {
       display: flex;
       flex-direction: row;
-    align-items: baseline;
+      align-items: flex-end;
     @media screen and (max-width: 1199px) {
     margin-bottom: 60px;
     }
   }
+}
+.footer-form {
+  display: flex;
+  flex-direction: column;
 }
   .footer-newsletter__placeholder {
     box-sizing: border-box;
@@ -84,6 +95,7 @@
     }
       @media screen and (min-width: 1200px) {
         width: 358px;
+        margin-bottom: 0px;
       }
   }
 
