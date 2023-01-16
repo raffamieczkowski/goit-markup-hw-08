@@ -28,9 +28,13 @@
   }
   .gallery__description {
     border: 1px solid var(--border-color);
-    max-width: 370px;
     padding-top: 20px;
+    @media screen and (min-width:1200px) {
+      
+    
+    max-width: 370px;
   }
+}
   .gallery__title {
     font-size: 18px;
     line-height: 2;
